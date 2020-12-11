@@ -1,7 +1,7 @@
 dist: trusty
 language: java
 sudo: false
-jdk: openjdk15
+jdk: openjdk14
 install: true
 cache:
   directories:
