@@ -10,9 +10,17 @@
 	</parent>
 	<groupId>com.bianeck</groupId>
 	<artifactId>customerregister-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>customerregister-api</name>
-	<description>Customer Register API</description>
+	<description>Customer Register API Professional</description>
+
+	<developers>
+		<developer>
+			<name>Thiago Moreira Bianeck</name>
+			<email>thiagobianeck@gmail.com</email>
+			<url>http://github.com/thiagobianeck</url>
+		</developer>
+	</developers>
 
 	<properties>
 		<java.version>15</java.version>
@@ -26,6 +34,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
 		<dependency>
@@ -69,6 +82,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>pl.project13.maven</groupId>
+				<artifactId>git-commit-id-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
