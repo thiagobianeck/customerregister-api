@@ -1,5 +1,6 @@
 package com.bianeck.customerregisterapi.domain;
 
+import com.bianeck.customerregisterapi.domain.common.Auditable;
 import com.bianeck.customerregisterapi.domain.enums.CustomerType;
 import com.bianeck.customerregisterapi.domain.enums.Gender;
 import lombok.*;
@@ -11,10 +12,10 @@ import java.util.List;
 import java.util.Set;
 
 @ToString
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = false)
 @Entity
 @NoArgsConstructor
-public class Customer {
+public class Customer extends Auditable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

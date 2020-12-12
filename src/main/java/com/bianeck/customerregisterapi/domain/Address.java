@@ -1,21 +1,23 @@
 package com.bianeck.customerregisterapi.domain;
 
+import com.bianeck.customerregisterapi.domain.common.Auditable;
 import lombok.*;
 
 import javax.persistence.*;
 
+@EqualsAndHashCode(callSuper = false)
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Address {
+public class Address extends Auditable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
-    private String address;
+    @Column(name = "address", nullable = false)
+    private String addressDescription;
 
     @Column(nullable = false)
     private String number;

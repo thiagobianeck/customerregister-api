@@ -1,14 +1,16 @@
 package com.bianeck.customerregisterapi.domain;
 
-import com.bianeck.customerregisterapi.domain.Customer;
+import com.bianeck.customerregisterapi.domain.common.Auditable;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
 import java.util.List;
 
+@EqualsAndHashCode(callSuper = false)
 @Data
 @Entity
-public class User {
+public class User extends Auditable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
