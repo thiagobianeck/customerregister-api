@@ -19,7 +19,6 @@ public class City {
     @Column(nullable = false)
     private String name;
 
-    @Column(nullable = false)
     @ManyToOne
     @JoinColumn(name = "estado_id")
     private State state;
