@@ -1,4 +1,4 @@
-package com.bianeck.customerregisterapi.custominfoendpoint;
+package com.bianeck.customerregisterapi.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
