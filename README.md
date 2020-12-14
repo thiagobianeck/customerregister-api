@@ -4,12 +4,18 @@
 	🚧  Customer Register API Application 🚀 Under construction...  🚧
 </h4>
 
-### Features
+### API Especifications
+- [Project on Trello](https://trello.com/b/ZKY9yc4F/customer-register-api)
 
-- [ ] Customer Registration
+Click to see
+
+- [X] [User authentication specification](https://app.swaggerhub.com/apis/thgbianeck/especificacao_autenticacao_usuario/1.0.0)
+- [ ] Specification for creating the user account
+- [ ] Specification for inclusion of customer data
+- [ ] Specification for generating customer reports
 
 
-### Autor
+## Author
 ---
 
 <a href="https://github.com/thiagobianeck">
@@ -18,6 +24,6 @@
  <sub><b>Thiago Moreira Bianeck</b></sub></a> <a href="https://github.com/thiagobianeck" title="Github Page">🚀</a>
 
 
-Feito com ❤️ por Thiago Bianeck 👋🏽 Entre em contato!
+Made with ❤️ by Thiago M. Bianeck 👋🏽 <a href="mailto:thiagobianeck@gmail.com?subject=About Customer Register API Application">Contact</a> !
 
 ![Twitter URL](https://img.shields.io/twitter/url?label=Tweet%20me&style=social&url=https%3A%2F%2Ftwitter.com%2FThiagoBianeck)

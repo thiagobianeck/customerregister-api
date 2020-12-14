@@ -3,6 +3,9 @@ language: java
 sudo: false
 jdk: openjdk14
 install: true
+branches:
+  only:
+    - main
 addons:
   sonarcloud:
     organization: $SONAR_ORGANIZATION
