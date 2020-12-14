@@ -18,14 +18,18 @@ public class State extends Auditable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false)
-    private String name;
+    @Column(nullable = false, unique = true, length = 2)
+    private String uf;
+
+    @Column(nullable = false, unique = true, length = 25)
+    private String description;
 
     @OneToMany(mappedBy = "state")
     private List<City> cities = new ArrayList<>();
 
-    public State(Long id, String name) {
+    public State(Long id, String uf, String name) {
         this.id = id;
-        this.name = name;
+        this.uf = uf;
+        this.description = name;
     }
 }
