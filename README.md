@@ -10,7 +10,7 @@
 Click to see
 
 - [X] [User authentication specification](https://app.swaggerhub.com/apis/thgbianeck/especificacao_autenticacao_usuario/1.0.0)
-- [ ] Specification for creating the user account
+- [X] [Specification for creating the user account](https://app.swaggerhub.com/apis/thgbianeck/especificacao_criacao_conta_usuario/1.0.0)
 - [ ] Specification for inclusion of customer data
 - [ ] Specification for generating customer reports
 
