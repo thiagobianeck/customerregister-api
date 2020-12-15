@@ -1,6 +1,5 @@
 package com.bianeck.customerregisterapi.domain;
 
-import com.bianeck.customerregisterapi.domain.common.Auditable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -13,7 +12,7 @@ import javax.persistence.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class City extends Auditable {
+public class City {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

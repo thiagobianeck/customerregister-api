@@ -1,6 +1,5 @@
 package com.bianeck.customerregisterapi.domain;
 
-import com.bianeck.customerregisterapi.domain.common.Auditable;
 import lombok.*;
 
 import javax.persistence.*;
@@ -11,7 +10,7 @@ import java.util.List;
 @Entity
 @Data
 @NoArgsConstructor
-public class State extends Auditable {
+public class State {
 
     @Id
     @Getter @Setter
