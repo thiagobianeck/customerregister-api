@@ -39,6 +39,9 @@ public class User extends Auditable {
     @Column(nullable = false, unique = true, length = 100)
     private String email;
 
+    @Column(nullable = false, length = 20)
+    private String phoneNumber;
+
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     private List<Customer> customers;
 }
