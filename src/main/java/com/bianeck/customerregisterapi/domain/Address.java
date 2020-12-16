@@ -19,7 +19,7 @@ public class Address extends Auditable {
     @Column(name = "address", nullable = false)
     private String addressDescription;
 
-    @Column(nullable = false)
+    @Column(nullable = false, length = 10)
     private String number;
 
     @Column(nullable = false)
@@ -28,7 +28,7 @@ public class Address extends Auditable {
     @Column(nullable = false)
     private String district;
 
-    @Column(nullable = false)
+    @Column(nullable = false, length = 10)
     private String zipCode;
 
     @ManyToOne

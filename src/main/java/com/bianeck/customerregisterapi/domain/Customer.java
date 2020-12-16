@@ -48,7 +48,7 @@ public class Customer extends Auditable {
 
     @Getter
     @OneToMany(mappedBy = "customer")
-    private List<Address> addresses = new ArrayList<>();
+    private final List<Address> addresses = new ArrayList<>();
 
     public CustomerType getType() {
         return CustomerType.toEnum(this.type);
